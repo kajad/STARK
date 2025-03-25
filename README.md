@@ -3,8 +3,12 @@ STARK is a highly customizable tool designed for extracting different types of s
 
 STARK is primarily aimed at processing treebanks based on the [Universal Dependencies](https://universaldependencies.org/) annotation scheme, but it also takes any other dependency treebank in the CONLL-U format as input. 
 
+![stark_demo](https://github.com/user-attachments/assets/8f0da3eb-cef4-479f-a69a-d0983aac5802)
+
 
 [<img src="https://github.com/user-attachments/assets/cf2516f3-3b91-4099-98e2-dd648b43ee8b">](https://orodja.cjvt.si/stark/)
+
+![web_banner_test](https://github.com/user-attachments/assets/23874eec-d1ad-475a-a517-979de7ce9509)
 
 For an online demonstration of the tool (with reduced set of features), please visit https://orodja.cjvt.si/stark/.
 
