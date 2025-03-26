@@ -1,4 +1,4 @@
-# STARK: A Tool for Extracting and Analyzing Dependency Trees
+# STARK: A Tool for Statistical Treebank Analysis
 
 **A bottom-up tool for identifying, quantifying, and comparing syntactic patterns in parsed corpora — no predefined queries needed.**
 
@@ -9,7 +9,6 @@ STARK is a highly customizable tool designed for extracting different types of s
 STARK is primarily aimed at processing treebanks based on the [Universal Dependencies](https://universaldependencies.org/) annotation scheme, but it also takes any other dependency treebank in the CONLL-U format as input. 
 
 For an online demonstration of the tool (with reduced set of features), please visit [https://orodja.cjvt.si/stark/](https://orodja.cjvt.si/stark/).
-
 
 ## Installation and execution
 Install Python 3 on your system https://www.python.org/downloads/.
@@ -76,6 +75,8 @@ For a detailed explanation of these and many other settings, see the [settings d
 
 ## Output
 
+[<img src="https://github.com/user-attachments/assets/cf2516f3-3b91-4099-98e2-dd648b43ee8b" alt="Input-output flow">](https://orodja.cjvt.si/stark/)
+
 STARK produces a tab-separated (.tsv) file with a list of all the trees matching the input criteria sorted by descending frequency, as illustrated by the first few lines of the default [sample output](/sample/output.tsv) below, which show the 5-most frequent trees occurring in the sample `en_ewt-ud-dev.conllu` treebank.
 
 The description of the tree is given in the first column, while subsequent columns include additional information on individual nodes, the absolute and relative frequencies, the surface node order, the number of the nodes in the tree and the head. For adding other types of information to the output, such as other useful statistics and links to visualized examples, see the list of settings above or the [detailed settings documentation here](settings.md).
@@ -88,7 +89,7 @@ The description of the tree is given in the first column, while subsequent colum
 | ADP <case NOUN | ADP | NOUN |   | 163 | 6481.4 | AB | 2 | NOUN
 | ADJ <amod NOUN | ADJ | NOUN |   | 117 | 4652.3 | AB | 2 | NOUN
 
-[<img src="https://github.com/user-attachments/assets/cf2516f3-3b91-4099-98e2-dd648b43ee8b">](https://orodja.cjvt.si/stark/)
+
 
 
 ### Description of tree structure
