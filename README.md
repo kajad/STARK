@@ -1,15 +1,14 @@
-# STARK: A Tool for Bottom-Up Treebank Analysis
+# STARK: A Tool for Extracting and Analyzing Dependency Trees
+
+**A bottom-up tool for identifying, quantifying, and comparing syntactic patterns in parsed corpora — no predefined queries needed.**
+
 ![stark-demo](https://github.com/user-attachments/assets/40ae50b2-8797-4e5a-948b-a2ade7bb8bd0)
+
 STARK is a highly customizable tool designed for extracting different types of syntactic structures (trees) from parsed corpora (treebanks). It quantifies these structures with respect to frequency and provides other useful corpus-linguistic statistics, such as the strength of association between the nodes of a tree or its significance (keyness) in comparison to another treebank. 
 
 STARK is primarily aimed at processing treebanks based on the [Universal Dependencies](https://universaldependencies.org/) annotation scheme, but it also takes any other dependency treebank in the CONLL-U format as input. 
 
-
-
-[<img src="https://github.com/user-attachments/assets/cf2516f3-3b91-4099-98e2-dd648b43ee8b">](https://orodja.cjvt.si/stark/)
-
-
-For an online demonstration of the tool (with reduced set of features), please visit https://orodja.cjvt.si/stark/.
+For an online demonstration of the tool (with reduced set of features), please visit [https://orodja.cjvt.si/stark/](https://orodja.cjvt.si/stark/).
 
 
 ## Installation and execution
@@ -88,6 +87,9 @@ The description of the tree is given in the first column, while subsequent colum
 | ADP <case PROPN | ADP | PROPN |   | 175 | 6958.5 | AB | 2 | PROPN
 | ADP <case NOUN | ADP | NOUN |   | 163 | 6481.4 | AB | 2 | NOUN
 | ADJ <amod NOUN | ADJ | NOUN |   | 117 | 4652.3 | AB | 2 | NOUN
+
+[<img src="https://github.com/user-attachments/assets/cf2516f3-3b91-4099-98e2-dd648b43ee8b">](https://orodja.cjvt.si/stark/)
+
 
 ### Description of tree structure
 The description of the trees given in the first column of the output is based on the [dep_search](https://fginter.github.io/dep_search/) query language (archived [here](https://orodja.cjvt.si/drevesnik/help/en/)), which is simple to learn and easy to read:
